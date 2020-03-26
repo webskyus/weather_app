@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', function() {
 	'use strict';
 
-	fetch('http://api.openweathermap.org/data/2.5/weather?q=Azerbaijan&APPID=818588fcfb836dd0da30652deb33b47c')
+	fetch('https://api.openweathermap.org/data/2.5/weather?q=Azerbaijan&APPID=818588fcfb836dd0da30652deb33b47c')
 		.then(function(resp) {return resp.json()})
 		.then(function(data) {
 			console.log(data);
