@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', function() {
 		.then(function(data) {
 			console.log(data);
 			let tempDegree = document.querySelector('.weather-temp__degree'),
-					tempInCelsius = ((data.main['temp'] - 273)).toFixed(0),
+					tempInCelsius = ((data.main['temp'] - 279)).toFixed(0),
 					cloudlyInfo = document.querySelector('.weather-box__procent--cloudly-info'),
 					humidityInfo = document.querySelector('.weather-box__procent--humidity'),
 					pressureInfo = document.querySelector('.weather-box__procent--pressure'),
