@@ -2,6 +2,7 @@ body {
 	position: relative;
 	font-family: 'Baloo 2',
 		cursive;
+	background: url(../images/cool-background.png) no-repeat cover/center;
 }
 
 body,
